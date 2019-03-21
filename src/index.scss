@@ -10,3 +10,10 @@ html, body {
   font-family: $font-stack;
   color: $text-color;
 }
+
+a {
+  color: $text-color;
+  &:visited {
+    color: $text-color;
+  }
+}

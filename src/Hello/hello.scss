@@ -1,7 +1,7 @@
 @import "../assets/styles/main.scss";
 
 .hello {
-  height: 700px;
+  height: 600px;
   background-color: $background-color;
   display: flex;
   align-items: center;
@@ -11,5 +11,13 @@
     width: 520px;
     text-align: center;
     font-size: 18px;
+    .icons {
+      margin-top: 20px;
+      img {
+        width: 25px;
+        height: auto;
+        margin: 0px 10px 0px 10px;
+      }
+    }
   }
 }
