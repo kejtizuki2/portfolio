@@ -17,3 +17,14 @@ a {
     color: $text-color;
   }
 }
+
+.icon {
+  width: 25px;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: row;
+  .gridCellCentered {
+  }
+}

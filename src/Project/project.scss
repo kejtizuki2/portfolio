@@ -1,0 +1,15 @@
+@import "../assets/styles/main.scss";
+
+.gridCell {
+  width: 50%;
+  height: 500px;
+  background-color: red;
+  background-size: cover;
+  .cellInfo {
+    background-color: white;
+    padding: 20px;
+    bottom: 0;
+    display: flex;
+    height: 50px;
+  }
+}
