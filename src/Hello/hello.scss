@@ -1,0 +1,15 @@
+@import "../assets/styles/main.scss";
+
+.hello {
+  height: 700px;
+  background-color: $background-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hello-description {
+    width: 520px;
+    text-align: center;
+    font-size: 18px;
+  }
+}
