@@ -12,7 +12,7 @@ class App extends Component {
         <Navbar />
         <Hello />
         <div className="gridContainer">
-          <Project title="SunWise" image={require("./assets/img/SunWise/sunwise-main.png")} />
+          <Project title="SunWise" image={require("./assets/img/SunWise/sunwise-main1.png")} />
           <Project title="Dogs training app" image={require("./assets/img/Dogs/dogo.png")} className="gridCellCentered"/>
         </div>
         <div className="gridContainer">
