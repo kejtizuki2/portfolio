@@ -21,17 +21,28 @@ class Project extends React.Component {
 
     const {
         image,
-        title
+        title,
+        description,
+        keywords
       } = this.props;
 
     return(
       <div className="gridCell">
-        <div className="gridImgWrap">
+        <div className="gridImgWrap" onMouseOver={this.imageHover} onMouseOut={this.imageHover}>
           <img src={image} className="gridImg"/>
-        </div>
-        <div className="cellInfo">
-          <p>{title}</p>
-          <img src={require("./../assets/img/arrow-right.png")} className="icon"/>
+          {
+            (this.state.isHovered === true) &&
+            <div className="textContainer" >
+              <div className="headerTop">
+                <h1>{title}</h1>
+                <p>{description}</p>
+              </div>
+              <div className="keywords">
+                <p>{keywords}</p>
+                <img src={require("./../assets/img/arrow-right-white.png")} className="icon"/>
+              </div>
+            </div>
+          }
         </div>
       </div>
     )

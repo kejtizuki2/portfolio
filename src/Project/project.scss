@@ -21,14 +21,34 @@
        position: absolute;
        -webkit-filter: brightness(100%);
 
-
        &:hover {
          cursor: pointer;
          transform: scale(1.05);
-         -webkit-filter: brightness(70%);
-
-
+         -webkit-filter: brightness(40%);
        }
+    }
+
+    .textContainer {
+      box-sizing: border-box;
+      padding: 50px;
+      color: white;
+      z-index: 600;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      pointer-events:none;
+      .headerTop {
+
+      }
+      .keywords {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        align-items: center;
+      }
     }
   }
   .cellInfo {
