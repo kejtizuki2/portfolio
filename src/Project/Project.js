@@ -1,16 +1,52 @@
 import React from 'react';
 import './project.scss';
 
-const Project = ({ image, title }) => { {
+class Project extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isHovered: false
+    }
+  }
+
+  imageHover = () => {
+    this.setState({
+      isHovered: !this.state.isHovered
+    })
+    console.log('state', this.state.isHovered)
+  }
+
+  render() {
+
+    const {
+        image,
+        title,
+        description,
+        keywords
+      } = this.props;
 
     return(
-      <div className="gridCell" style={{ backgroundImage: `url(${image})` }}>
-        <div className="cellInfo">
-          <p>{title}</p>
-          <img src={require("./../assets/img/arrow-right.png")} className="icon"/>
+      <div className="gridCell">
+        <div className="gridImgWrap" onMouseOver={this.imageHover} onMouseOut={this.imageHover}>
+          <img src={image} className="gridImg"/>
+          {
+            (this.state.isHovered === true) &&
+            <div className="textContainer" >
+              <div className="headerTop">
+                <h1>{title}</h1>
+                <p>{description}</p>
+              </div>
+              <div className="keywords">
+                <p>{keywords}</p>
+                <img src={require("./../assets/img/arrow-right-white.png")} className="icon"/>
+              </div>
+            </div>
+          }
         </div>
       </div>
     )
-}}
+  }
+}
 
 export default Project;
