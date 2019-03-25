@@ -3,6 +3,7 @@ import Hello from './Hello/Hello';
 import Navbar from './Nav/Navbar';
 import Project from './Project/Project';
 import Experience from './Experience/Experience';
+import Footer from './Footer/Footer';
 import './index.scss';
 
 
@@ -27,10 +28,11 @@ class App extends Component {
           <Project title="Mikeller friends" image={require("./assets/img/Mikeller/main.png")}
           description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
           keywords="UX, UI, User Testing, Personal Informatics"/>
-          <Project title="Parallel coordinates" image={require("./assets/img/DataVis/main.png")}  description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
+          <Project title="Parallel coordinates" image={require("./assets/img/DataVis/main3.png")}  description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
             keywords="UX, UI, User Testing, Personal Informatics" />
         </div>
         <Experience />
+        <Footer />
       </div>
     );
   }

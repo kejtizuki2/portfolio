@@ -1,20 +1,38 @@
 @import "../assets/styles/main.scss";
 
 .experience {
-  height: 600px;
+  height: 500px;
   background-color: white;
-  display: flex;
   padding: 60px;
   .header {
     width: 100%;
+    height: 50px;
   }
-  .listView {
-    width: 50%;
-    ul {
-      list-style: none;
+  .experience-explained {
+    display: flex;
+    flex-direction: row;
+    .listView {
+      width: 30%;
+      font-size: 24px;
+      // line-height: 1.5;
+      ul {
+        list-style: none;
+        padding: 0;
+        .listView-elem {
+          display: inline-block
+        }
+      }
+    }
+    .description {
+      padding-top: 22px;
+      width: 70%;
+      line-height: 1.25;
+      font-size: 18px;
     }
   }
-  .description {
-    width: 50%;
-  }
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
 }
