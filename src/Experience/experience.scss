@@ -19,7 +19,9 @@
         list-style: none;
         padding: 0;
         .listView-elem {
-          display: inline-block
+          display: inline-block;
+          margin: 0;
+          margin-bottom: 10px;
         }
       }
     }
