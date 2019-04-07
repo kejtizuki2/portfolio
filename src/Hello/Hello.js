@@ -7,7 +7,7 @@ export default class Hello extends React.Component {
 
     return(
       <div className="hello">
-        <div className="hello-description">Hi! My name is <strong>Kasia Zukowska</strong>, I’m a UX designer
+        <div className="hello-description">Hi! My name is <strong>Kasia Żukowska</strong>, I’m a UX designer
         and freelance frontend developer. Currently doing my internship
         in <a href="https://www.designit.com/">Designit, Copenhagen</a>.
         <div className="icons">

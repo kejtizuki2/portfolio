@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
 
     return(
       <div className="footer">
-        <div>Coded with ♡ by kejtizuki heheheh </div>
+        <div>Coded and designed with ♡ by Kasia Żukowska</div>
       </div>
     )
   }

@@ -39,7 +39,7 @@ class Project extends React.Component {
               </div>
               <div className="keywords">
                 <p>{keywords}</p>
-                <img src={require("./../assets/img/arrow-right-white.png")} className="icon"/>
+                <img src={require("./../assets/img/arrow-right-white.png")} className="iconArrow"/>
               </div>
             </div>
           }

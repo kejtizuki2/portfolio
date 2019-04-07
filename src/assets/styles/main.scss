@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
-$font-stack: 'Inconsolata', sans-serif;
+@font-face {
+  font-family: Akkurat;
+  src: './../Akkurat.ttf';
+}
+
+
+$font-stack: 'Akkurat', sans-serif;
 $header-font: 'Fjalla One';
 $background-color: #FFF4EC;
 $text-color: #292B2C;
