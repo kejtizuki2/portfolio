@@ -3,6 +3,7 @@ import Hello from './Hello/Hello';
 import Navbar from './Nav/Navbar';
 import Project from './Project/Project';
 import Experience from './Experience/Experience';
+import Skill from './Skill/Skill';
 import Footer from './Footer/Footer';
 import './index.scss';
 
@@ -31,7 +32,13 @@ class App extends Component {
           <Project title="Parallel coordinates" image={require("./assets/img/DataVis/main3.png")}  description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
             keywords="UI, Data Visualization, Coding" />
         </div>
+        <div className="gridContainer">
+          <Project title="SF movies visualization" image={require("./assets/img/SF/main.png")}
+          description="Visualization of movies locations over years in San Francisco"
+          keywords="Data Visualization" />
+        </div>
         <Experience />
+      
         <Footer />
       </div>
     );
