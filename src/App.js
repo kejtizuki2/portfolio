@@ -16,20 +16,20 @@ class App extends Component {
         <div className="gridContainer">
           <Project title="SunWise" image={require("./assets/img/SunWise/sunwise-main1.png")}
           description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
-          keywords="UX, UI, User Testing, Personal Informatics" />
+          keywords="UX, UI, User Testing, Personal Informatics, Coding, Data Visualization" />
           <Project title="Dogs training app" image={require("./assets/img/Dogs/dogo.png")}
           className="gridCellCentered"
           description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
-          keywords="UX, UI, User Testing, Personal Informatics"
+          keywords="UX, UI, User Testing, Interaction Design"
           />
 
         </div>
         <div className="gridContainer">
           <Project title="Mikeller friends" image={require("./assets/img/Mikeller/main.png")}
           description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
-          keywords="UX, UI, User Testing, Personal Informatics"/>
+          keywords="UX, Prototyping"/>
           <Project title="Parallel coordinates" image={require("./assets/img/DataVis/main3.png")}  description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
-            keywords="UX, UI, User Testing, Personal Informatics" />
+            keywords="UI, Data Visualization, Coding" />
         </div>
         <Experience />
         <Footer />

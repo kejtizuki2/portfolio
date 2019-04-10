@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 @font-face {
   font-family: Akkurat;
   src: './../Akkurat.ttf';
 }
 
+@font-face {
+  font-family: Chivo;
+  src: './../Chivo.ttf';
+}
 
-$font-stack: 'Akkurat', sans-serif;
-$header-font: 'Fjalla One';
+$font-stack: 'Inconsolata', sans-serif;
+$header-font: 'Chivo';
 $background-color: #FFF4EC;
 $text-color: #292B2C;
+
+.title {
+  font-family: $header-font;
+}
+
+#dogsProject {
+  background-color: white !important;
+}

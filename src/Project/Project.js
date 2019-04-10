@@ -34,7 +34,7 @@ class Project extends React.Component {
             (this.state.isHovered === true) &&
             <div className="textContainer" >
               <div className="headerTop">
-                <h1>{title}</h1>
+                <h1 className="title">{title}</h1>
                 <p>{description}</p>
               </div>
               <div className="keywords">
