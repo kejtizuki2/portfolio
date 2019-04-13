@@ -13,7 +13,7 @@ class Skill extends React.Component {
 
     return(
       <div className="">
-        {title}
+        HEJKA SKILL
       </div>
     )
   }

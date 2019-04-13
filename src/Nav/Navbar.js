@@ -8,8 +8,8 @@ export default class Navbar extends React.Component {
     return(
       <nav className="navigation">
         <ul>
-          <li><a href="">Work</a></li>
-          <li><a href="">Contact me</a></li>
+          <li>Work</li>
+          <li>Contact me</li>
         </ul>
       </nav>
     )
