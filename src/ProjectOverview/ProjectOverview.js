@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProjectOverview.scss';
+import './projectOverview.scss';
 
 class ProjectOverview extends React.Component {
 
@@ -8,12 +8,14 @@ class ProjectOverview extends React.Component {
   render() {
 
     const {
-        title
+        title,
+        image,
+        redirect
       } = this.props;
 
     return(
       <div className="">
-        {title}
+        <img src={image} />
       </div>
     )
   }

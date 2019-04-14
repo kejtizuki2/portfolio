@@ -6,19 +6,24 @@ import Experience from './Experience/Experience';
 import Skill from './Skill/Skill';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
-import { BrowserRouter, Router, Route, Link } from "react-router-dom";
+import ProjectOverview from './ProjectOverview/ProjectOverview';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './index.scss';
 
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router>
 
       <Route exact path="/" component={Home} />
-      <Route path="/sunwise" component={Skill} />
+      <Route exact path="/sunWise" component={() => <ProjectOverview image={require("./assets/img/SunWise/sunwise-main1.png")} />} />
+      <Route exact path="/dogsApp" component={() => <ProjectOverview image={require("./assets/img/Dogs/dogo.png")} />} />
+      <Route exact path="/SFdataVis" component={Skill} />
+      <Route exact path="/mikellerApp" component={Skill} />
+      <Route exact path="/parallelCoordinates" component={Skill} />
 
-    </BrowserRouter>
+    </Router>
     );
   }
 }

@@ -17,6 +17,11 @@ class Project extends React.Component {
     console.log('state', this.state.isHovered)
   }
 
+  handleOnClick = () => {
+    console.log("redirect");
+    this.props.history.push(this.props.redirect);
+  };
+
   render() {
 
     const {
@@ -27,7 +32,7 @@ class Project extends React.Component {
       } = this.props;
 
     return(
-      <div className="gridCell">
+      <div className="gridCell" onClick={this.handleOnClick}>
         <div className="gridImgWrap" onMouseOver={this.imageHover} onMouseOut={this.imageHover}>
           <img src={image} className="gridImg"/>
           {
