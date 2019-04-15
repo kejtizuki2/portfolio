@@ -2,9 +2,12 @@
 
 
 .navigation {
-  background-color: $background-color;
+  background-color: transparent;
   margin: 0;
   padding: 0;
+  right: 0;
+  position: fixed;
+  z-index: 100;
   ul {
     margin: 0;
     padding: 20px 40px 0px 40px;
@@ -12,9 +15,9 @@
     justify-content: flex-end;
     list-style: none;
     li {
-      &:first-child {
+
         margin-right: 40px;
-      }
+
       a {
         text-decoration: none;
       }
