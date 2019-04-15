@@ -25,6 +25,7 @@ class App extends Component {
         history={this.props.history}
         description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
         keywords="UX, UI, User Testing, Interaction Design"
+        tools="Adobe Photoshop, Adobe Illustrator, React Native"
       />}
       />
       <Route exact path="/dogsApp" component={() => <ProjectOverview
@@ -33,6 +34,7 @@ class App extends Component {
         history={this.props.history}
         description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
         keywords="UX, UI, User Testing, Interaction Design"
+        tools="Adobe Photoshop, Adobe Illustrator"
       />}
       />
       <Route exact path="/SFdataVis" component={() => <ProjectOverview
@@ -41,6 +43,7 @@ class App extends Component {
         history={this.props.history}
         description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
         keywords="UX, Prototyping"
+        tools="Python, HTML, CSS, D3.js"
       />}
       />
       <Route exact path="/mikellerApp" component={() => <ProjectOverview
@@ -48,7 +51,8 @@ class App extends Component {
         title="Mikeller app"
         history={this.props.history}
         description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
-        keywords="UI, Data Visualization, Coding"
+        keywords="UI"
+        tools="Adobe Illustrator"
       />}
       />
       <Route exact path="/parallelCoordinates" component={() => <ProjectOverview
@@ -57,6 +61,7 @@ class App extends Component {
         history={this.props.history}
         description="Visualization of movies locations over years in San Francisco"
         keywords="Data Visualization"
+        tools="Python, HTML, CSS, D3.js"
       />}
       />
 

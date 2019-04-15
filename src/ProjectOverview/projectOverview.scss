@@ -54,13 +54,23 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  .col3 {
+  h2 {
+    margin: 0;
+  }
+  .col4 {
+    width: 40%;
+  }
+  .col5 {
     width: 50%;
   }
-  .col8 {
-    wifth: 50%;
+  .col6 {
+    width: 60%;
   }
   .mainImg {
     width: 200px;
+  }
+
+  .more {
+    padding-top: 60px;
   }
 }
