@@ -13,7 +13,7 @@
   src: './../Chivo.ttf';
 }
 
-$font-stack: 'Inconsolata', sans-serif;
+$font-stack: 'Akkurat', sans-serif;
 $header-font: 'Akkurat';
 $background-color: #FFF4EC;
 $text-color: #292B2C;
@@ -24,4 +24,40 @@ $text-color: #292B2C;
 
 #dogsProject {
   background-color: white !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.col2 {
+  width: 25%;
+}
+.col3 {
+  width: 33%;
+}
+.col4 {
+  width: 40%;
+  padding-right: 40px;
+}
+.col5 {
+  width: 50%;
+}
+.col6 {
+  width: 60%;
+}
+.col7 {
+  width: 75%;
+}
+.colMax {
+  width: 100%;
+}
+
+.padding20 {
+  padding-left: 20px;
+}
+
+.margin40 {
+  margin: 40px 0px 40px 0px;
 }

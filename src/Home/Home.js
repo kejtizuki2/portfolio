@@ -23,7 +23,9 @@ class Home extends Component {
           history={this.props.history}
           redirect="sunWise"
           />
+
           </Link>
+
           <Link to="/dogs">
           <Project title="Dogs training app" image={require("../assets/img/Dogs/dogo.png")}
           className="gridCellCentered"
@@ -34,20 +36,22 @@ class Home extends Component {
           />
           </Link>
 
-
         </div>
         <div className="gridContainer">
+
+
           <Project title="Mikeller friends" image={require("../assets/img/Mikeller/main.png")}
           description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
           keywords="UX, Prototyping"
           history={this.props.history}
           redirect="mikellerApp"
         />
-          <Project title="Parallel coordinates" image={require("../assets/img/DataVis/main3.png")}  description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
-            keywords="UI, Data Visualization, Coding"
-            history={this.props.history}
-            redirect="parallelCoordinates"
-          />
+
+        <Project title="Brushing techniques for parallel coordinates" image={require("../assets/img/DataVis/main3.png")}  description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
+          keywords="UI, Data Visualization, Coding"
+          history={this.props.history}
+          redirect="parallelCoordinates"
+        />
         </div>
         <div className="gridContainer">
           <Project title="SF movies visualization" image={require("../assets/img/SF/main.png")}
