@@ -15,7 +15,7 @@ import './index.scss';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
 
       <Route exact path="/" component={Home} />
       <Route exact path="/sunWise" component={() => <div><ProjectOverview

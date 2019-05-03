@@ -128,6 +128,20 @@ from iOS Human Interface Guidelines.
   hierarchy of information and application structure. This design
   forced that the title of each screen is shown on the top of the view,
   which helps orientate better where the user is in the application.
+  Current UV Index level is displayed in a circular progress bar, instead of a
+simple circle.
+</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col5">
+          <img src={require("./../assets/img/SunWise/screen_home.png")} className="prototypeImg"/>
+        </div>
+        <div className="col5">
+          <p> Besides the screens that the first
+prototype included, calendar view has been added
+to sum up hours spent on sun during the month.
 </p>
         </div>
       </div>
