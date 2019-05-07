@@ -12,6 +12,7 @@ html, body {
   color: $text-color;
   line-height: 1.25;
   font-size: 17px;
+  -webkit-text-size-adjust: none;
 }
 
 a {
