@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c973ea5a7e79ae024fb7837b397a2ccb",
-    "url": "/portfolio/static/media/main.c973ea5a.png"
+    "revision": "819ca87419aca945f66899ba096809de",
+    "url": "/portfolio/static/media/sunwise-main.819ca874.png"
   },
   {
-    "revision": "dd4fe4e472f9300ae28d",
-    "url": "/portfolio/static/css/main.8296fc92.chunk.css"
+    "revision": "3b8ce0bdf44e6d96fb2e",
+    "url": "/portfolio/static/css/main.1a523ff9.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "9ce412891e42f2a1ff03",
-    "url": "/portfolio/static/js/2.29f3edbf.chunk.js"
+    "revision": "62d7055c6a9b674ac49b",
+    "url": "/portfolio/static/js/2.5fa64c6e.chunk.js"
   },
   {
     "revision": "45a81af52536d9b9e2357c67ff86af4a",
@@ -32,16 +32,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/main3.8f026041.png"
   },
   {
-    "revision": "dd4fe4e472f9300ae28d",
-    "url": "/portfolio/static/js/main.eea0c3ec.chunk.js"
+    "revision": "c973ea5a7e79ae024fb7837b397a2ccb",
+    "url": "/portfolio/static/media/main.c973ea5a.png"
   },
   {
-    "revision": "426c5f2ca1fb7aa50308858e9b0580e1",
-    "url": "/portfolio/static/media/screen_home.426c5f2c.png"
-  },
-  {
-    "revision": "819ca87419aca945f66899ba096809de",
-    "url": "/portfolio/static/media/sunwise-main.819ca874.png"
+    "revision": "3b8ce0bdf44e6d96fb2e",
+    "url": "/portfolio/static/js/main.ab776011.chunk.js"
   },
   {
     "revision": "e5cb6776ad7d7f2634a0f946a461ca38",
@@ -64,7 +60,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/old4-fix.188495f7.png"
   },
   {
-    "revision": "3c269873bd557fb4dfa79f925c08fa9d",
+    "revision": "426c5f2ca1fb7aa50308858e9b0580e1",
+    "url": "/portfolio/static/media/screen_home.426c5f2c.png"
+  },
+  {
+    "revision": "8d612bf1e29270614f8654871e82eba1",
+    "url": "/portfolio/static/media/statistics.8d612bf1.gif"
+  },
+  {
+    "revision": "00997acf71cfac724800e99f9997754d",
+    "url": "/portfolio/static/media/screen_calendar.00997acf.png"
+  },
+  {
+    "revision": "d406b8fa92d0f9de8624853cdc509489",
     "url": "/portfolio/index.html"
   }
 ];
