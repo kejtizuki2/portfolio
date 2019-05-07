@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: Akkurat;
-  src: './../Akkurat.ttf';
+  src: require('./../Akkurat.ttf');
 }
 
 @font-face {
   font-family: Chivo;
-  src: './../Chivo.ttf';
+  src: require('./../Chivo.ttf');
 }
 
 $font-stack: 'Akkurat', sans-serif;

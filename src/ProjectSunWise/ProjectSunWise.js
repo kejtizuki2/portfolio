@@ -136,7 +136,17 @@ simple circle.
 
       <div className="row">
         <div className="col5">
-          <img src={require("./../assets/img/SunWise/screen_home.png")} className="prototypeImg"/>
+          <img src={require("./../assets/img/SunWise/statistics.gif")} className="prototypeImg"/>
+        </div>
+        <div className="col5">
+          <p>
+</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col5">
+          <img src={require("./../assets/img/SunWise/screen_calendar.png")} className="prototypeImg"/>
         </div>
         <div className="col5">
           <p> Besides the screens that the first
@@ -153,7 +163,8 @@ to sum up hours spent on sun during the month.
       <div className=""><h3 className="number">Phase 3</h3></div>
 
       </div>
-      <iframe src="https://marvelapp.com/5jgaeg8?emb=1&iosapp=false&frameless=false" width="352" height="801" allowTransparency="true" frameborder="0"></iframe>
+      <div className="prototype"><iframe src="https://marvelapp.com/5jgaeg8?emb=1&iosapp=false&frameless=false" width="352" height="801" allowTransparency="true" frameborder="0"></iframe>
+    </div>
       </div>
     )
   }
