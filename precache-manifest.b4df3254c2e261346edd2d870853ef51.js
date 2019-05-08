@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "819ca87419aca945f66899ba096809de",
-    "url": "/portfolio/static/media/sunwise-main.819ca874.png"
+    "revision": "08b5c9232df56a5daf839ff8bb9746d3",
+    "url": "/portfolio/static/media/old1-fix.08b5c923.png"
   },
   {
-    "revision": "3b8ce0bdf44e6d96fb2e",
-    "url": "/portfolio/static/css/main.1a523ff9.chunk.css"
+    "revision": "9e4fcffde5cccfbf93b2",
+    "url": "/portfolio/static/css/main.1809b38e.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "62d7055c6a9b674ac49b",
-    "url": "/portfolio/static/js/2.5fa64c6e.chunk.js"
+    "revision": "cb79ec437a04a1e244c4",
+    "url": "/portfolio/static/js/2.db2b10d9.chunk.js"
   },
   {
     "revision": "45a81af52536d9b9e2357c67ff86af4a",
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/main.c973ea5a.png"
   },
   {
-    "revision": "3b8ce0bdf44e6d96fb2e",
-    "url": "/portfolio/static/js/main.ab776011.chunk.js"
+    "revision": "819ca87419aca945f66899ba096809de",
+    "url": "/portfolio/static/media/sunwise-main.819ca874.png"
   },
   {
     "revision": "e5cb6776ad7d7f2634a0f946a461ca38",
     "url": "/portfolio/static/media/firstPrototype.e5cb6776.png"
   },
   {
-    "revision": "08b5c9232df56a5daf839ff8bb9746d3",
-    "url": "/portfolio/static/media/old1-fix.08b5c923.png"
+    "revision": "9e4fcffde5cccfbf93b2",
+    "url": "/portfolio/static/js/main.538db93b.chunk.js"
   },
   {
     "revision": "218c84cbd4dd064755241a6c57238d06",
@@ -72,7 +72,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/screen_calendar.00997acf.png"
   },
   {
-    "revision": "d406b8fa92d0f9de8624853cdc509489",
+    "revision": "c5c3d44f8ce5812f12902117396da23e",
+    "url": "/portfolio/static/media/screen_about.c5c3d44f.png"
+  },
+  {
+    "revision": "892127098b068bad2f21e31c2d20dff4",
+    "url": "/portfolio/static/media/mikeller.89212709.png"
+  },
+  {
+    "revision": "5ed2f6039b38fdf8a82d10f10dd2e6d9",
+    "url": "/portfolio/static/media/main.5ed2f603.png"
+  },
+  {
+    "revision": "8f52439233b0039ccb65a01b4a7b3565",
     "url": "/portfolio/index.html"
   }
 ];
