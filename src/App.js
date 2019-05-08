@@ -8,6 +8,8 @@ import Footer from './Footer/Footer';
 import Home from './Home/Home';
 import ProjectOverview from './ProjectOverview/ProjectOverview';
 import ProjectSunWise from './ProjectSunWise/ProjectSunWise';
+import ProjectMikeller from './ProjectMikeller/ProjectMikeller';
+import ProjectCoordinates from './ProjectCoordinates/ProjectCoordinates';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './index.scss';
 
@@ -36,17 +38,17 @@ spend outdoors in relation to the UV Index levels. The project was developed as 
         bgImage={require("./assets/img/Dogs/dogo.png")}
         title="Dogs training app"
         history={this.props.history}
-        description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
+        description="Keep your dog engaded and motivated even when you're not at home."
         keywords="UX, UI, User Testing, Interaction Design"
         tools="Adobe Photoshop, Adobe Illustrator"
       />}
       />
 
-      <Route exact path="/parallelCoordinates" component={() => <ProjectOverview
+      <Route exact path="/parallelCoordinates" component={() => <div><ProjectOverview
         bgImage={require("./assets/img/DataVis/main3.png")}
         title="Parallel coordinates"
         history={this.props.history}
-        description="Visualization of movies locations over years in San Francisco"
+        description="Research and user testing of different brushing techniques for parallel coordinates"
         keywords="Data Visualization"
         tools="Python, HTML, CSS, D3.js"
         longDesc="Even though parallel coordinates can successfully solve
@@ -58,25 +60,25 @@ the data when they see nothing but visual clutter. This project aims to
 improve the overall user experience when interacting with parallel
 coordinates and presents five types of brushing that are specifically
 designed to filter the data in different ways."
-      />}
+      /><ProjectCoordinates /></div>}
       />
       <Route exact path="/SFdataVis" component={() => <ProjectOverview
         bgImage={require("./assets/img/SF/main.png")}
         title="San Francisco Data Visualization"
         history={this.props.history}
-        description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
+        description="Visualization of movie locations over years in San Francisco"
         keywords="UX, Prototyping"
         tools="Python, HTML, CSS, D3.js"
       />}
       />
-      <Route exact path="/mikellerApp" component={() => <ProjectOverview
+      <Route exact path="/mikellerApp" component={() => <div><ProjectOverview
         bgImage={require("./assets/img/Mikeller/main.png")}
         title="Mikeller app"
         history={this.props.history}
-        description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
+        description="Mikeller app"
         keywords="UI"
         tools="Adobe Illustrator"
-      />}
+      /><ProjectMikeller /></div>}
       />
       <Footer />
 

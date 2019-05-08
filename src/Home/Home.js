@@ -29,7 +29,7 @@ class Home extends Component {
           <Link to="/dogs">
           <Project title="Dogs training app" image={require("../assets/img/Dogs/dogo.png")}
           className="gridCellCentered"
-          description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
+          description="Keep your dog engaded and motivated even when you're not at home"
           keywords="UX, UI, User Testing, Interaction Design"
           history={this.props.history}
           redirect="dogsApp"
@@ -41,14 +41,15 @@ class Home extends Component {
 
 
           <Project title="Mikeller friends" image={require("../assets/img/Mikeller/main.png")}
-          description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
+          description="Mikeller app"
           keywords="UX, Prototyping"
           history={this.props.history}
           redirect="mikellerApp"
         />
 
-        <Project title="Brushing techniques for parallel coordinates" image={require("../assets/img/DataVis/main3.png")}  description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
-          keywords="UI, Data Visualization, Coding"
+        <Project title="Brushing techniques for parallel coordinates" image={require("../assets/img/DataVis/main3.png")}
+          description="Research and user testing of different brushing techniques for parallel coordinates"
+          keywords="UI, UX, Data Visualization, Coding, Research"
           history={this.props.history}
           redirect="parallelCoordinates"
         />
@@ -56,7 +57,7 @@ class Home extends Component {
         <div className="gridContainer">
           <Project title="SF movies visualization" image={require("../assets/img/SF/main.png")}
           description="Visualization of movies locations over years in San Francisco"
-          keywords="Data Visualization"
+          keywords="Data Visualization, Coding"
           history={this.props.history}
           redirect="SFdataVis"
         />

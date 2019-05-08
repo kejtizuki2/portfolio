@@ -123,13 +123,18 @@
 }
 
 .prototypeImg {
-  width: 250px;
+  width: 300px;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
 -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+margin: 0px 20px 0px 20px;
 }
 
 .prototype {
   display: flex;
   justify-content: center;
+}
+
+.center {
+  text-align: center;
 }
