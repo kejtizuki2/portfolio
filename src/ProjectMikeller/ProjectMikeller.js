@@ -8,7 +8,7 @@ class ProjectMikeller extends React.Component {
 
     return(
       <div className="projectContainer">
-        <img src={require("./../assets/img/Mikeller/mikeller.png")} className="mainImg"/>
+        <img src={require("./../assets/img/Mikeller/presentX.png")} className="mainImg"/>
       </div>
     )
   }

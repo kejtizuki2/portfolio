@@ -10,13 +10,19 @@ import ProjectOverview from './ProjectOverview/ProjectOverview';
 import ProjectSunWise from './ProjectSunWise/ProjectSunWise';
 import ProjectMikeller from './ProjectMikeller/ProjectMikeller';
 import ProjectDogs from './ProjectDogs/ProjectDogs';
+import ProjectSF from './ProjectSF/ProjectSF';
 import ProjectCoordinates from './ProjectCoordinates/ProjectCoordinates';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './index.scss';
 
 
 class App extends Component {
+
   render() {
+
+    const dogsDesc = <a href="https://www.behance.net/gallery/72991077/Dogs-training-app">This page is currently being built. See the project description under this link.</a>
+    const mikellerDesc = <a href="https://www.behance.net/gallery/72186697/Mikeller-Friends-App">This page is currently being built. See the project description under this link.</a>
+
     return (
       <Router basename={process.env.PUBLIC_URL}>
 
@@ -42,6 +48,7 @@ spend outdoors in relation to the UV Index levels. The project was developed as 
         description="Keep your dog engaded and motivated even when you're not at home."
         keywords="UX, UI, User Testing, Interaction Design"
         tools="Adobe Photoshop, Adobe Illustrator"
+        longDesc={dogsDesc}
       /><ProjectDogs /></div>}
       />
 
@@ -63,14 +70,16 @@ coordinates and presents five types of brushing that are specifically
 designed to filter the data in different ways."
       /><ProjectCoordinates /></div>}
       />
-      <Route exact path="/SFdataVis" component={() => <ProjectOverview
+      <Route exact path="/SFdataVis" component={() => <div><ProjectOverview
         bgImage={require("./assets/img/SF/main.png")}
         title="San Francisco Data Visualization"
         history={this.props.history}
         description="Visualization of movie locations over years in San Francisco"
-        keywords="UX, Prototyping"
+        keywords="Web design, development"
         tools="Python, HTML, CSS, D3.js"
-      />}
+        longDesc="The project was developed as a group assignment for the Data Visualization class at DTU.
+        The visualization is interactive and presents movie locations across the years in San Francisco area."
+      /><ProjectSF /></div>}
       />
       <Route exact path="/mikellerApp" component={() => <div><ProjectOverview
         bgImage={require("./assets/img/Mikeller/main.png")}
@@ -79,6 +88,7 @@ designed to filter the data in different ways."
         description="Mikeller app"
         keywords="UI"
         tools="Adobe Illustrator"
+        longDesc={mikellerDesc}
       /><ProjectMikeller /></div>}
       />
       <Footer />
