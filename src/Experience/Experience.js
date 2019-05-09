@@ -43,13 +43,14 @@ class Experience extends React.Component {
         </div>
         <div className="description">
           {list[this.state.currentIndex].description}
+          <a href={require("./../assets/downloads/cv-katarzyna-zukowska.pdf")} download>
+            Download my CV
+          </a>
           <br /><br />
           <a href={list[this.state.currentIndex].url}>{list[this.state.currentIndex].url}</a>
         </div>
         </div>
-        <a href={require("./../assets/downloads/cv-katarzyna-zukowska.pdf")} download>
-          Download my CV
-        </a>
+
 
       </div>
     )
