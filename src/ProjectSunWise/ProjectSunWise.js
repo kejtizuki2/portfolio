@@ -77,38 +77,7 @@ phases.</p>
 
           <div className="">
             <h3 className="number">Research findings</h3>
-            <div className="row">
-              <div className="col5 research">
-                <img src={require("./../assets/img/SunWise/old1-fix.png")} className="padding20"/>
-                <p id="firstInsight" className="padding20">The users need to have a
-                  possibility to enter the application in order to see statistics, even
-                  when they don't want to sunbath at the moment.</p>
-              </div>
-              <div className="col5 research">
-                <img src={require("./../assets/img/SunWise/old2-fix.png")} className="padding20"/>
-                <div className="">
-                  <p className="padding20">The main screen (UV Index) was not clear to the users, they didn't understand what do
-                  the bubbles represent. Therefore, it should show only information about the current value. </p>
-                <p id="stopInsight" className="padding20">The stop button should be more visible</p></div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col5 research">
-                <img src={require("./../assets/img/SunWise/old3-fix.png")} className="padding20 padding40"/>
-                <div className="">
-                  <p className="padding20">Double navigation panel on top of the screen was misleading therefore navigation patterns need to be changed</p>
-                  <p className="padding20" id="chartInsight">It turned out that line chart was not an appropriate
-    data visualization in this case. As the users are normally exposed to sun only during few hours of the day,
-    bar chart would be a better idea for the
-    next prototype. Additionally, on
-    the line chart it was hard to distinguish the colors assigned to UV
-    Index values.</p></div>
-              </div>
-              <div className="col5 research">
-                <img src={require("./../assets/img/SunWise/old4-fix.png")} className="padding20"/>
-                <p>The app was too colorful causing problems with understanding what does each color mean.</p>
-              </div>
-            </div>
+            <img src={require("./../assets/img/SunWise/feedback.png")} className="colMax margin40"/>
           </div>
         </div>
         <div className=""><h3 className="number">Phase 2</h3>
