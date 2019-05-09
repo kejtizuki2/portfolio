@@ -8,6 +8,7 @@ class ProjectCoordinates extends React.Component {
 
     return(
       <div className="projectContainer">
+        This page is currently being built. 
         <img src={require("./../assets/img/Coordinates/main.png")} className="mainImg"/>
       </div>
     )
