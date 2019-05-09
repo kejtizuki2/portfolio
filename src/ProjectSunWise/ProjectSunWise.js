@@ -73,9 +73,10 @@ phases.</p>
           During the first iteration the non-functional protoype was created and tested face-to-face with
           the potential users. The following screens were tested:
 
-          <img src={require("./../assets/img/SunWise/firstPrototype.png")} className="colMax margin40"/>
+          <img src={require("./../assets/img/SunWise/firstPrototype.png")} className="colMax"/>
 
           <div className="">
+
             <h3 className="number">Research findings</h3>
             <img src={require("./../assets/img/SunWise/feedback.png")} className="colMax margin40"/>
           </div>

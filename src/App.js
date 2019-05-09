@@ -9,6 +9,7 @@ import Home from './Home/Home';
 import ProjectOverview from './ProjectOverview/ProjectOverview';
 import ProjectSunWise from './ProjectSunWise/ProjectSunWise';
 import ProjectMikeller from './ProjectMikeller/ProjectMikeller';
+import ProjectDogs from './ProjectDogs/ProjectDogs';
 import ProjectCoordinates from './ProjectCoordinates/ProjectCoordinates';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './index.scss';
@@ -34,14 +35,14 @@ sun overexposure by allowing users to track the time they
 spend outdoors in relation to the UV Index levels. The project was developed as a part of Personal Data Interaction class at DTU."
 /> <ProjectSunWise /></div>}
       />
-      <Route exact path="/dogsApp" component={() => <ProjectOverview
+      <Route exact path="/dogsApp" component={() => <div><ProjectOverview
         bgImage={require("./assets/img/Dogs/dogo.png")}
         title="Dogs training app"
         history={this.props.history}
         description="Keep your dog engaded and motivated even when you're not at home."
         keywords="UX, UI, User Testing, Interaction Design"
         tools="Adobe Photoshop, Adobe Illustrator"
-      />}
+      /><ProjectDogs /></div>}
       />
 
       <Route exact path="/parallelCoordinates" component={() => <div><ProjectOverview

@@ -15,12 +15,12 @@
   src: require('./../Chivo.ttf');
 }
 
-$font-stack: 'Akkurat', 'Karla';
+$font-stack: 'Karla', 'Karla';
 $header-font: 'Akkurat', 'Fjalla One';
 $background-color: #FFF4EC;
 $text-color: #292B2C;
 
-.title {
+.title, strong {
   font-family: $header-font;
 }
 
