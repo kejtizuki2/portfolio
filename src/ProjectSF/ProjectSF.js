@@ -10,7 +10,7 @@ class ProjectSF extends React.Component {
       <div className="projectContainer">
         <img src={require("./../assets/img/SF/main-view.png")} className="mainImg"/>
         <div className="row">
-          <div className="col3"><h2 className="title">/02 Motivation</h2></div>
+          <div className="col3"><h2 className="title">Motivation</h2></div>
         <div className="col7">  <p>The dataset for the project contained the filming locations of movies shot in San Francisco,
           starting from 1924. The group chose this dataset because San Francisco is one of the most popular locations
           for filmmakers, offering a lot of iconic landmarks and beautiful landscapes.
@@ -20,7 +20,7 @@ class ProjectSF extends React.Component {
         </div>
 
       <div className="row">
-      <div className="col3"><h2 className="title">/03 Goals</h2></div>
+      <div className="col3"><h2 className="title">Goals</h2></div>
       <div className="col7">  <p>One of the main goals regarding
         this project was to find out where exactly certain scenes from famous movies were shot.
         We achieved this by visualizing the filming locations on the map and filtering them
@@ -31,7 +31,7 @@ class ProjectSF extends React.Component {
       </div>
 
       <div className="row">
-      <div className="col3"><h2 className="title">/04 Features</h2></div>
+      <div className="col3"><h2 className="title">Features</h2></div>
       <div className="col7">  <p><h2>Map with brushable timeline</h2>
 The map is showing the districts of San Francisco along with all filming locations from 1924 to present day.
 First thing that can be noticed from the map is that a considerable amount of movies were shot in the

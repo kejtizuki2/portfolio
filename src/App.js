@@ -48,7 +48,11 @@ spend outdoors in relation to the UV Index levels. The project was developed as 
         description="Keep your dog engaded and motivated even when you're not at home."
         keywords="UX, UI, User Testing, Interaction Design"
         tools="Adobe Photoshop, Adobe Illustrator"
-        longDesc={dogsDesc}
+        longDesc="It is a camera based AI system that connects with a treat dispenser to a tv screen, that can provide mental and physical stimulation
+        for your dog if there are days you do not have time to give it the mental stimulation dogs need and craves.
+        When dogs are at home all day by themselves, their intelligent brains are under stimulated and they get bored,
+        leading to depression and often poorly behaved dogs. The app makes sure that your dog stays happy, while it provides the owner with a way to
+        track its progress and mental health."
       /><ProjectDogs /></div>}
       />
 

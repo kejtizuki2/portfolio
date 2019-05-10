@@ -25,6 +25,16 @@ class Home extends Component {
           />
 
           </Link>
+          <Project title="SF movies visualization" image={require("../assets/img/SF/main.png")}
+          description="Visualization of movies locations over years in San Francisco"
+          keywords="Data Visualization, Coding"
+          history={this.props.history}
+          redirect="SFdataVis"
+        />
+
+
+        </div>
+        <div className="gridContainer">
 
           <Link to="/dogs">
           <Project title="Dogs training app" image={require("../assets/img/Dogs/dogo.png")}
@@ -36,9 +46,6 @@ class Home extends Component {
           />
           </Link>
 
-        </div>
-        <div className="gridContainer">
-
 
           <Project title="Mikeller friends" image={require("../assets/img/Mikeller/main.png")}
           description="Mikeller app"
@@ -47,19 +54,14 @@ class Home extends Component {
           redirect="mikellerApp"
         />
 
+        </div>
+
+        <div className="gridContainer">
         <Project title="Brushing techniques for parallel coordinates" image={require("../assets/img/DataVis/main3.png")}
           description="Research and user testing of different brushing techniques for parallel coordinates"
           keywords="UI, UX, Data Visualization, Coding, Research"
           history={this.props.history}
           redirect="parallelCoordinates"
-        />
-        </div>
-        <div className="gridContainer">
-          <Project title="SF movies visualization" image={require("../assets/img/SF/main.png")}
-          description="Visualization of movies locations over years in San Francisco"
-          keywords="Data Visualization, Coding"
-          history={this.props.history}
-          redirect="SFdataVis"
         />
         </div>
         <Experience />

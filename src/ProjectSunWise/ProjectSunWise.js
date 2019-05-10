@@ -10,7 +10,7 @@ class ProjectSunWise extends React.Component {
       <div className="projectContainer">
         <img src={require("./../assets/img/SunWise/sunwise-main.png")} className="mainImg"/>
     <div className="row">
-      <div className="col3"><h2 className="title">/02 Motivation</h2></div>
+      <div className="col3"><h2 className="title">Motivation</h2></div>
     <div className="col7">  <p>Nowadays, the harmful effect of UV radiation is increasing with
 time as a result of the thinning of the ozone layer. Nevertheless,
 people still seem to ignore or forget the warnings communicated
@@ -23,7 +23,7 @@ and permanent eye and skin damage
     </div>
 
   <div className="row">
-  <div className="col3">  <h2 className="title">/03 Personal informatics</h2></div>
+  <div className="col3">  <h2 className="title">Personal informatics</h2></div>
     <div className="col7"><p>SunWise is designed and developed based on
 the <strong><a href="http://www.personalinformatics.org/docs/lab/2010-chi-ianli-stage-based-model.pdf">Stage-based Model of Personal Informatics System</a></strong>. Its aim
 is to help people realize, be aware and act on the dangers of UV
@@ -65,7 +65,7 @@ shadow or even stopping sunbathing</p>
 
 
   </div>
-        <h2 className="title">/04 Design Process</h2>
+        <h2 className="title">Design Process</h2>
         <p>The design of the prototype has been crafted during three iterations
 phases.</p>
       <div className="iterations">
