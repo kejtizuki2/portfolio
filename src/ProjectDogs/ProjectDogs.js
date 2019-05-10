@@ -80,6 +80,8 @@ Owners can feel like they are neglecting their dogs when they leave home and fee
         </p>
         </div>
         </div>
+
+        <img src={require("./../assets/img/Dogs/results-mapped.png")} className="colMax margin40"/>
         <div className="center"><iframe src="https://marvelapp.com/272a3b6?emb=1&iosapp=false&frameless=false" width="452" height="901" allowTransparency="true" frameborder="0"></iframe></div>
       </div>
     )
