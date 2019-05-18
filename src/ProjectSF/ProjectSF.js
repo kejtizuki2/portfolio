@@ -41,7 +41,8 @@ the timeline, it can be clearly seen how powerful the movie industry became in t
 handful of movies last century to hundreds nowadays. It goes without saying that Hollywood loves San Francisco.
       </p></div>
       </div>
-        <img src={require("./../assets/img/SF/map.gif")} className="mainImg"/>
+
+      <img src={require("./../assets/img/SF/sf-map.gif")} className="mainImg"/>
 
         <div className="row">
         <div className="col3"></div>
@@ -51,7 +52,7 @@ handful of movies last century to hundreds nowadays. It goes without saying that
   The visualization gives a possibility to choose timeframes (by choosing one of the timeframes from select list). </p></div>
         </div>
 
-        <img src={require("./../assets/img/SF/distributions.gif")} className="mainImg"/>
+        <img src={require("./../assets/img/SF/distributions3.gif")} className="mainImg"/>
       </div>
     )
   }

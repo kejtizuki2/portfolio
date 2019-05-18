@@ -63,7 +63,18 @@ class Home extends Component {
           history={this.props.history}
           redirect="parallelCoordinates"
         />
+
+        {/* <Project
+          image={require("../assets/img/Costa/main.png")}
+          title="New Costa cruise experience"
+          history={this.props.history}
+          description="Experience costa"
+          keywords="UI, Ideation, Concept, Rapid prototyping"
+          redirect="costa"
+        /> */}
         </div>
+
+
         <Experience />
 
 

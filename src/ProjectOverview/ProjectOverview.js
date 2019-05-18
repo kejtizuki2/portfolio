@@ -34,7 +34,8 @@ class ProjectOverview extends React.Component {
       'dogs': title === 'Dogs training app',
       'sfData': title === 'San Francisco Data Visualization',
       'mikeller': title === 'Mikeller app',
-      'coordinates': title === 'Parallel coordinates'
+      'coordinates': title === 'Parallel coordinates',
+      'costa': title === 'New Costa cruise experience'
 
     });
 

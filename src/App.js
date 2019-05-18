@@ -11,6 +11,7 @@ import ProjectSunWise from './ProjectSunWise/ProjectSunWise';
 import ProjectMikeller from './ProjectMikeller/ProjectMikeller';
 import ProjectDogs from './ProjectDogs/ProjectDogs';
 import ProjectSF from './ProjectSF/ProjectSF';
+import ProjectCosta from './ProjectCosta/ProjectCosta';
 import ProjectCoordinates from './ProjectCoordinates/ProjectCoordinates';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './index.scss';
@@ -61,7 +62,7 @@ spend outdoors in relation to the UV Index levels. The project was developed as 
         title="Parallel coordinates"
         history={this.props.history}
         description="Research and user testing of different brushing techniques for parallel coordinates"
-        keywords="Data Visualization"
+        keywords="Data Visualization, Web Design, UX Design"
         tools="Python, HTML, CSS, D3.js"
         longDesc="Even though parallel coordinates can successfully solve
 the issue of visualizing multidimensional data, they often lead to
@@ -79,7 +80,7 @@ designed to filter the data in different ways."
         title="San Francisco Data Visualization"
         history={this.props.history}
         description="Visualization of movie locations over years in San Francisco"
-        keywords="Web design, development"
+        keywords="Data visualization, Web design, Web development"
         tools="Python, HTML, CSS, D3.js"
         longDesc="The project was developed as a group assignment for the Data Visualization class at DTU.
         The visualization is interactive and presents movie locations across the years in San Francisco area."
@@ -91,10 +92,21 @@ designed to filter the data in different ways."
         history={this.props.history}
         description="Mikeller app"
         keywords="UI"
-        tools="Adobe Illustrator"
-        longDesc={mikellerDesc}
+        tools="Adobe Photoshop"
+        longDesc="The project was created during Mikeller Challenge. We were provided with the brief and
+        based on it we came up with the concept and initial prototype."
       /><ProjectMikeller /></div>}
       />
+      {/* <Route exact path="/costa" component={() => <div><ProjectOverview
+        bgImage={require("./assets/img/Costa/main.png")}
+        title="New Costa cruise experience"
+        history={this.props.history}
+        description="Experience costa"
+        keywords="UI, Ideation, Concept, Rapid prototyping"
+        tools="Adobe Xd"
+        longDesc='Long description of costa'
+      /><ProjectCosta /></div>}
+      /> */}
       <Footer />
 
     </Router>
