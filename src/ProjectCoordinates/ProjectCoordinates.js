@@ -12,8 +12,7 @@ class ProjectCoordinates extends React.Component {
         <img src={require("./../assets/img/Coordinates/main.png")} className="mainImg"/>
 
         <div className="row">
-        <div className="col3"><h2 className="title">Problem</h2></div>
-        <div className="col7">  <p>Visualizing multi-dimensional data has always been a challenging
+        <div className="col7"><h2 className="title">Problem</h2><p>Visualizing multi-dimensional data has always been a challenging
 task for many and it has been proved that the human brain was
 only trained to perceive 2 dimensions. One of the most well known
 and widely used strategies to tackle this issue is represented
@@ -30,15 +29,20 @@ are crucial in data analysis, since they are the key to revealing
 interesting stories about the data.
 
         </p></div>
+        <div className="col3"></div>
         </div>
 
         <div className="row">
-        <div className="col3"><h2 className="title">Goal</h2></div>
-        <div className="col7">  <p>The goal of the project was to implement parallel coordinates
+        <div className="col7"><h2 className="title">Goal</h2><p>The goal of the project was to implement parallel coordinates
           visualization allowing for multiple brushing techniques. Different types of brushing
           techniques were introduced and tested during the user tests.
         </p></div>
+        <div className="col3"></div>
         </div>
+
+        <img src={require("./../assets/img/Coordinates/dimensions.gif")} className="mainImg"/>
+        <img src={require("./../assets/img/Coordinates/brush-simple.gif")} className="mainImg"/>
+        <img src={require("./../assets/img/Coordinates/line-brush.gif")} className="mainImg"/>
       </div>
     )
   }

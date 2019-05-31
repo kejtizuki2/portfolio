@@ -81,21 +81,24 @@ phases.</p>
             <img src={require("./../assets/img/SunWise/feedback.png")} className="colMax margin40"/>
           </div>
         </div>
-        <div className=""><h3 className="number">Phase 2</h3>
+        <div className="">
+        <div className="row">
 
-      Taking into consideration all the issues mentioned above, the
-group proceeded to the second iteration, in which the application
-was redesigned. Apart from implementing the suggestions from
-feedback, we decided that the application has to use principles
-from iOS Human Interface Guidelines.
-The old navigation was replaced with tap bar, which allowed better
-hierarchy of information and application structure. This design
-forced that the title of each screen is shown on the top of the view,
-which helps orientate better where the user is in the application.
-Current UV Index level is displayed in a circular progress bar, instead of a
-simple circle.  Besides the screens that the first
-prototype included, calendar view has been added
-to sum up hours spent on sun during the month.
+          <div className="col7">  <h3 className="number">Phase 2</h3>Taking into consideration all the issues mentioned above, the
+      group proceeded to the second iteration, in which the application
+      was redesigned. Apart from implementing the suggestions from
+      feedback, we decided that the application has to use principles
+      from iOS Human Interface Guidelines.
+      The old navigation was replaced with tap bar, which allowed better
+      hierarchy of information and application structure. This design
+      forced that the title of each screen is shown on the top of the view,
+      which helps orientate better where the user is in the application.
+      Current UV Index level is displayed in a circular progress bar, instead of a
+      simple circle.  Besides the screens that the first
+      prototype included, calendar view has been added
+      to sum up hours spent on sun during the month.</div>
+      <div className="col3"></div>
+        </div>
 
 
 
@@ -105,13 +108,7 @@ to sum up hours spent on sun during the month.
           <img src={require("./../assets/img/SunWise/screen_calendar.png")} className="prototypeImg"/>
           <img src={require("./../assets/img/SunWise/screen_about.png")} className="prototypeImg"/>
       </div>
-
-
-
       </div>
-
-
-      <div className=""><h3 className="number">Phase 3</h3></div>
 
       </div>
       <div className="prototype"><iframe src="https://marvelapp.com/5jgaeg8?emb=1&iosapp=false&frameless=false" width="352" height="801" allowTransparency="true" frameborder="0"></iframe>

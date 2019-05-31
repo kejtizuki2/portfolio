@@ -84,13 +84,14 @@
   // color: ;
 }
 
+.mainImg {
+  width: 100%;
+  height: auto;
+  margin: 40px 0px 40px 0px;
+}
+
 .projectContainer {
   padding: 10px 200px 10px 200px;
-  .mainImg {
-    width: 100%;
-    height: auto;
-    margin: 40px 0px 40px 0px;
-  }
   .screenView {
     width: 300px;
   }
@@ -127,11 +128,11 @@
 }
 
 .prototypeImg {
-  width: 260px;
+  width: 240px;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
 -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
-margin: 0px 20px 0px 20px;
+margin: 0px 10px 0px 10px;
 }
 
 .prototype {
