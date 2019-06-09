@@ -16,7 +16,7 @@ class Home extends Component {
         <Hello />
         <div className="gridContainer">
           <Link to="/sunwise">
-          <Project title="SunWise" image={require("../assets/img/SunWise/sunwise-main1.jpg")}
+          <Project title="SunWise" image={require("../assets/img/SunWise/sunwise-main1.png")}
           className="gridCellCentered"
           description="SunWise helps you sunbathe in a safe way by collecting the UV index data."
           keywords="UX, UI, User Testing, Interaction Design"

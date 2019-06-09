@@ -1,19 +1,24 @@
 @import "../assets/styles/main.scss";
 
 .experience {
-  height: 400px;
+  height: 450px;
   background-color: white;
   padding: 60px;
   .header {
     width: 100%;
     height: 50px;
+    .title {
+      font-size: 36px;
+    }
   }
   .experience-explained {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
     .listView {
       width: 30%;
-      font-size: 18px;
+      font-size: 24px;
+      font-family: $header-font;
       // line-height: 1.5;
       ul {
         list-style: none;
@@ -28,8 +33,8 @@
     .description {
       padding-top: 22px;
       width: 70%;
-      line-height: 1.25;
-      font-size: 17px;
+      line-height: 1.3;
+      font-size: 18px;
       height: 250px;
     }
   }

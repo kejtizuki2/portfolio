@@ -55,7 +55,7 @@ class ProjectOverview extends React.Component {
         <p className="projectDescription">{description}</p>
       </div>
       <div className="basicContainer">
-        <div className="col3">
+        <div className="col3 role">
         <h2 className="title">Details</h2>
         <h4 className="title">Role</h4>
         <p>{keywords}</p>

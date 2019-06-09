@@ -11,7 +11,8 @@ class ProjectSunWise extends React.Component {
         <img src={require("./../assets/img/SunWise/sunwise-main.png")} className="mainImg"/>
     <div className="row">
       <div className="col3"><h2 className="title">Motivation</h2></div>
-    <div className="col7">  <p>Nowadays, the harmful effect of UV radiation is increasing with
+    <div className="col7">
+    <p>Nowadays, the harmful effect of UV radiation is increasing with
 time as a result of the thinning of the ozone layer. Nevertheless,
 people still seem to ignore or forget the warnings communicated
 by the different media channels. Of course, sun rays have some
@@ -19,18 +20,20 @@ positive effect to humans’ biological system, but the negative effects
 outweigh the positive ones. As an example, being exposed to
 sunshine without taking some precautions can cause temporary
 and permanent eye and skin damage
-</p></div>
+</p>
+</div>
     </div>
 
   <div className="row">
-  <div className="col3">  <h2 className="title">Personal informatics</h2></div>
-    <div className="col7"><p>SunWise is designed and developed based on
+    <div className="col3"><h2 className="title">Personal informatics</h2></div>
+    <div className="col7">
+    <p>SunWise is designed and developed based on
 the <strong><a href="http://www.personalinformatics.org/docs/lab/2010-chi-ianli-stage-based-model.pdf">Stage-based Model of Personal Informatics System</a></strong>. Its aim
 is to help people realize, be aware and act on the dangers of UV
 exposure.</p>
 
   <div className="sbm">
-    <h3>Preparation</h3>
+    <h3 className="personal">Preparation</h3>
     <p>The users will
     be driven by motivation to measure their sun exposure patterns.
     The system itself is a mobile platform application.</p>
@@ -59,19 +62,27 @@ in order to see patterns.</p>
 sunbathing actions, such as putting on sunscreen, going to the
 shadow or even stopping sunbathing</p>
   </div>
-
-
   </div>
 
 
   </div>
+
         <h2 className="title">Design Process</h2>
         <p>The design of the prototype has been crafted during three iterations
-phases.</p>
+        phases.</p>
+
+
+
       <div className="iterations">
-        <div className=""><h3 className="number">Phase 1</h3>
+
+        <div className="">
+          <div className="row">
+          <div className="col7">
+            <h3 className="number">Phase 1</h3>
           During the first iteration the non-functional protoype was created and tested face-to-face with
-          the potential users. The following screens were tested:
+          the potential users. The following screens were tested:</div>
+          <div className="col3"></div>
+            </div>
 
           <img src={require("./../assets/img/SunWise/firstPrototype.png")} className="colMax"/>
 
@@ -83,8 +94,7 @@ phases.</p>
         </div>
         <div className="">
         <div className="row">
-
-          <div className="col7">  <h3 className="number">Phase 2</h3>Taking into consideration all the issues mentioned above, the
+          <div className="col7"><h3 className="number">Phase 2</h3>Taking into consideration all the issues mentioned above, the
       group proceeded to the second iteration, in which the application
       was redesigned. Apart from implementing the suggestions from
       feedback, we decided that the application has to use principles

@@ -29,7 +29,7 @@ class App extends Component {
 
       <Route exact path="/" component={Home} />
       <Route exact path="/sunWise" component={() => <div><ProjectOverview
-        bgImage={require("./assets/img/SunWise/sunwise-main1.jpg")}
+        bgImage={require("./assets/img/SunWise/sunwise-main1.png")}
         title="SunWise"
         history={this.props.history}
         description="Protect your skin from high UV index. Know when to stop sunbathing."
@@ -104,7 +104,10 @@ designed to filter the data in different ways."
         description="Experience costa"
         keywords="UI, Ideation, Concept, Rapid prototyping"
         tools="Adobe Xd"
-        longDesc='Long description of costa'
+        longDesc='The project was created as a response to Reply Creative Challenge in Digital Experience category. The task was
+        to create a service that can be
+leveraged also from occasional guests coming from the city port. Main assumptions were to augment onboard revenues,
+augment awareness of the brand and the cruise product, get past cruisers involved again. '
       /><ProjectCosta /></div>}
       /> */}
       <Footer />
