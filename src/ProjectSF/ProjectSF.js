@@ -45,7 +45,6 @@ handful of movies last century to hundreds nowadays. It goes without saying that
       <img src={require("./../assets/img/SF/sf-map.gif")} className="mainImg"/>
 
         <div className="row">
-
         <div className="col7">  <p><h2>Bubble visualization</h2>
   Bubble charts visualization was created to present the data and give the users an option to filter the data
   according to their preferences. It is possible to group movies by director, production company or distributor.

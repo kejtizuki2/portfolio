@@ -16,16 +16,23 @@ class ProjectCosta extends React.Component {
 similar experiences to Costa. We found that launching such a service is not very far from
 launching a restaurant or activities in the city itself.
 First, we taught about the customer segment and
-formulated the problems related to Costa experience. Further, we discussed we understood every
-step that customers would take on booking our hop-on
-service. Variations such as: “is the customer booking for tonight or days in advance?” “Is the
-customer coming with his/her partner or with his/her whole family?” “Is the customer
-coming for a full day of activities or for only a specific one?” where thought thoroughly and
-addressed in our concept. While tackling these variations we understood the complexity of
+formulated the problems related to Costa experience. We understood the complexity of
 offering such a service but it allowed us to research on the specific use cases we were
 interested about.</p></div>
         <div className="col3"></div>
         </div>
+
+        <div className="row">
+        <div className="col7"><h2 className="title">Motivation</h2>  <p>The main motivation is that ships
+          are left empty when the travelers get down to visit the cities. Therefore empty spaces and services
+          can still be used to generate profit for Costa. We also want to engage people who never went on a cruise
+          or are a bit skeptical about it and hesitate to book the full crusie experience.</p></div>
+        <div className="col3"></div>
+        </div>
+
+        <h2 className="title">Business Model Canvas</h2>
+        <img src={require("./../assets/img/Costa/mvp.png")} className="mainImg"/>
+        <h2 className="title">Prototype</h2>
           <iframe width={1040} height={693} src="https://xd.adobe.com/embed/63c677a1-60d3-4132-757f-49ec3a30178a-15f7/" frameborder="0" allowfullscreen></iframe>
       </div>
     )

@@ -97,8 +97,8 @@ designed to filter the data in different ways."
         based on it we came up with the concept and initial prototype."
       /><ProjectMikeller /></div>}
       />
-      {/* <Route exact path="/costa" component={() => <div><ProjectOverview
-        bgImage={require("./assets/img/Costa/main.png")}
+      <Route exact path="/costa" component={() => <div><ProjectOverview
+        bgImage={require("./assets/img/Costa/img.png")}
         title="New Costa cruise experience"
         history={this.props.history}
         description="Experience costa"
@@ -107,9 +107,9 @@ designed to filter the data in different ways."
         longDesc='The project was created as a response to Reply Creative Challenge in Digital Experience category. The task was
         to create a service that can be
 leveraged also from occasional guests coming from the city port. Main assumptions were to augment onboard revenues,
-augment awareness of the brand and the cruise product, get past cruisers involved again. '
+augment awareness of the brand and the cruise product and get past cruisers involved again. '
       /><ProjectCosta /></div>}
-      /> */}
+      />
       <Footer />
 
     </Router>
