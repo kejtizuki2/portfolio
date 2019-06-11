@@ -102,7 +102,7 @@ designed to filter the data in different ways."
         title="New Costa cruise experience"
         history={this.props.history}
         description="Experience costa"
-        keywords="UI, Ideation, Concept, Rapid prototyping"
+        keywords="UI, Ideation, Concept, Prototyping"
         tools="Adobe Xd"
         longDesc='The project was created as a response to Reply Creative Challenge in Digital Experience category. The task was
         to create a service that can be

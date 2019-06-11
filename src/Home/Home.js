@@ -69,7 +69,7 @@ class Home extends Component {
           title="New Costa cruise experience"
           history={this.props.history}
           description="Experience costa"
-          keywords="UI, Ideation, Concept, Rapid prototyping"
+          keywords="UI, Ideation, Concept, Prototyping"
           redirect="costa"
         />
         </div>
