@@ -86,7 +86,7 @@ restrict the dimensions between a min and max value.
 method which can be performed by drawing lines in the areas
 between each 2 axes. The
 selection contains all entries that pass through all of the active
-lines (Figure 8). The users can remove the lines and draw new ones
+lines. The users can remove the lines and draw new ones
 by clicking anywhere close to their surrounding area.
         </p></div>
         <div className="col3"></div>
