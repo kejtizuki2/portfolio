@@ -1,15 +1,15 @@
 {
-  "main.css": "/portfolio/static/css/main.245ead3e.chunk.css",
-  "main.js": "/portfolio/static/js/main.3bf38a64.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.3bf38a64.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.1ba3c964.chunk.css",
+  "main.js": "/portfolio/static/js/main.e3880119.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.e3880119.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
   "static/js/2.7ca7b723.chunk.js": "/portfolio/static/js/2.7ca7b723.chunk.js",
   "static/js/2.7ca7b723.chunk.js.map": "/portfolio/static/js/2.7ca7b723.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.dd798a33e40c4a33a4e5631881c4000d.js": "/portfolio/precache-manifest.dd798a33e40c4a33a4e5631881c4000d.js",
+  "precache-manifest.c7df63ee1619312a3a4e39985b423255.js": "/portfolio/precache-manifest.c7df63ee1619312a3a4e39985b423255.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.245ead3e.chunk.css.map": "/portfolio/static/css/main.245ead3e.chunk.css.map",
+  "static/css/main.1ba3c964.chunk.css.map": "/portfolio/static/css/main.1ba3c964.chunk.css.map",
   "static/media/1.png": "/portfolio/static/media/1.a6648266.png",
   "static/media/USM.png": "/portfolio/static/media/USM.2b9f0b44.png",
   "static/media/brush-simple.gif": "/portfolio/static/media/brush-simple.4c647b2d.gif",
@@ -35,5 +35,7 @@
   "static/media/sf-map.gif": "/portfolio/static/media/sf-map.c0a09a5a.gif",
   "static/media/statistics.gif": "/portfolio/static/media/statistics.8d612bf1.gif",
   "static/media/sunwise-main.png": "/portfolio/static/media/sunwise-main.819ca874.png",
-  "static/media/sunwise-main1.png": "/portfolio/static/media/sunwise-main1.f515539f.png"
+  "static/media/sunwise-main1.png": "/portfolio/static/media/sunwise-main1.f515539f.png",
+  "static/media/web.png": "/portfolio/static/media/web.fb784ee7.png",
+  "static/media/web2.png": "/portfolio/static/media/web2.df597068.png"
 }
