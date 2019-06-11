@@ -32,6 +32,9 @@ interested about.</p></div>
 
         <h2 className="title">Business Model Canvas</h2>
         <img src={require("./../assets/img/Costa/mvp.png")} className="mainImg"/>
+
+        <img src={require("./../assets/img/Costa/web.png")} className="mainImg"/>
+        <img src={require("./../assets/img/Costa/web2.png")} className="mainImg"/>
         <h2 className="title">Prototype</h2>
           <iframe width={1040} height={693} src="https://xd.adobe.com/embed/63c677a1-60d3-4132-757f-49ec3a30178a-15f7/" frameborder="0" allowfullscreen></iframe>
       </div>
