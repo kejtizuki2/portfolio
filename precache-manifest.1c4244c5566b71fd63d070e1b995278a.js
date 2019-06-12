@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "c5c3d44f8ce5812f12902117396da23e",
-    "url": "/portfolio/static/media/screen_about.c5c3d44f.png"
+    "revision": "a66482665227bbe961cbfb8bf8138b9a",
+    "url": "/portfolio/static/media/1.a6648266.png"
   },
   {
-    "revision": "b7fc46cb47f618e79006",
-    "url": "/portfolio/static/css/main.20feb676.chunk.css"
+    "revision": "1aba74cacc3a787775c5",
+    "url": "/portfolio/static/css/main.53afe0d9.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "79dbcf2f0bfc3df2d957",
-    "url": "/portfolio/static/js/2.e96147cf.chunk.js"
+    "revision": "541f534adc1211d7dd09",
+    "url": "/portfolio/static/js/2.8c6041b1.chunk.js"
   },
   {
     "revision": "f515539f64d43cb4b37431b63592c730",
     "url": "/portfolio/static/media/sunwise-main1.f515539f.png"
+  },
+  {
+    "revision": "648504a9230a4b55dd0181f49a04f1a6",
+    "url": "/portfolio/static/media/web.648504a9.png"
   },
   {
     "revision": "c973ea5a7e79ae024fb7837b397a2ccb",
@@ -40,16 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/main.0133d556.png"
   },
   {
-    "revision": "2fc0e75f58e9cbe39ff38c3155150247",
-    "url": "/portfolio/static/media/web.2fc0e75f.png"
-  },
-  {
     "revision": "59840adc7383b0a7e80d1a60d5185e54",
     "url": "/portfolio/static/media/cv-katarzyna-zukowska.59840adc.pdf"
-  },
-  {
-    "revision": "d26d44a1a12f9d7750d808cdf93485f5",
-    "url": "/portfolio/static/media/webmain.d26d44a1.png"
   },
   {
     "revision": "819ca87419aca945f66899ba096809de",
@@ -76,8 +72,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/screen_calendar.00997acf.png"
   },
   {
-    "revision": "b7fc46cb47f618e79006",
-    "url": "/portfolio/static/js/main.0c700660.chunk.js"
+    "revision": "c5c3d44f8ce5812f12902117396da23e",
+    "url": "/portfolio/static/media/screen_about.c5c3d44f.png"
   },
   {
     "revision": "8c0fa561c595373452233ee63d158075",
@@ -88,8 +84,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/screens.6b79e702.png"
   },
   {
-    "revision": "a66482665227bbe961cbfb8bf8138b9a",
-    "url": "/portfolio/static/media/1.a6648266.png"
+    "revision": "1aba74cacc3a787775c5",
+    "url": "/portfolio/static/js/main.fe0c3ecf.chunk.js"
   },
   {
     "revision": "2b9f0b447a7f0f885b7683b750bab0f6",
@@ -128,6 +124,22 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/web2.df597068.png"
   },
   {
+    "revision": "dca8a4a4290cce95ea6f603a00ea718c",
+    "url": "/portfolio/static/media/webmain.dca8a4a4.png"
+  },
+  {
+    "revision": "8f940db7248bbf93ec5537986c225be5",
+    "url": "/portfolio/static/media/uxmap.8f940db7.png"
+  },
+  {
+    "revision": "9cf934c18ee97d61b02858837fcc9647",
+    "url": "/portfolio/static/media/presetsView.9cf934c1.png"
+  },
+  {
+    "revision": "4098574eb8664cc37c092c7f4e35ebdb",
+    "url": "/portfolio/static/media/prototype-choose-filter.4098574e.gif"
+  },
+  {
     "revision": "5ed2f6039b38fdf8a82d10f10dd2e6d9",
     "url": "/portfolio/static/media/main.5ed2f603.png"
   },
@@ -152,7 +164,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/img.fffce63d.png"
   },
   {
-    "revision": "19cb602ca0374b3f9b526709278c7663",
+    "revision": "c9186f95c01f255a0c6afea7d0aea156",
     "url": "/portfolio/index.html"
   }
 ];
