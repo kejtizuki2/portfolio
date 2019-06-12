@@ -60,6 +60,10 @@ $text-color: #292B2C;
   padding-left: 20px;
 }
 
+.padding200 {
+  padding: 0px 200px 0px 200px;
+}
+
 .margin40 {
   margin: 40px 0px 40px 0px;
 }
@@ -72,4 +76,18 @@ $text-color: #292B2C;
   text-decoration: none;
   background-color: #eaf257;
   padding: 10px 20px 10px 20px;
+}
+
+.pullRight {
+  text-align: right;
+}
+
+.verticalCenter {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.marginRight {
+  margin-right: 100px;
 }

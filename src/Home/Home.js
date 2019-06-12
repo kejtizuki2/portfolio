@@ -26,7 +26,7 @@ class Home extends Component {
           </Link>
 
           <Link to="/augmentedHearing">
-          <Project title="Augmented Hearing" image={require("../assets/img/AH/webmain.png")}
+          <Project title="Augmented Hearing" image={require("../assets/img/AH/web.png")}
           className="gridCellCentered"
           description="Augmented hearing app created as a digital tool to interact with a hearing aid."
           keywords="UI, UX, Concept, Prototyping"
