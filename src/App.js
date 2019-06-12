@@ -12,6 +12,7 @@ import ProjectMikeller from './ProjectMikeller/ProjectMikeller';
 import ProjectDogs from './ProjectDogs/ProjectDogs';
 import ProjectSF from './ProjectSF/ProjectSF';
 import ProjectCosta from './ProjectCosta/ProjectCosta';
+import ProjectAH from './ProjectAH/ProjectAH';
 import ProjectCoordinates from './ProjectCoordinates/ProjectCoordinates';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './index.scss';
@@ -109,6 +110,17 @@ designed to filter the data in different ways."
 leveraged also from occasional guests coming from the city port. Main assumptions were to augment onboard revenues,
 augment awareness of the brand and the cruise product and get past cruisers involved again. '
       /><ProjectCosta /></div>}
+      />
+
+      <Route exact path="/augmentedHearing" component={() => <div><ProjectOverview
+        bgImage={require("./assets/img/AH/web.png")}
+        title="Augmented Hearing"
+        history={this.props.history}
+        description="Augmented hearing app created as a digital tool to interact with a hearing aid."
+        keywords="UI, UX, Concept, Prototyping"
+        tools="Sketch, Principle"
+        longDesc='This project is currently being created'
+      /><ProjectAH /></div>}
       />
       <Footer />
 

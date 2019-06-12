@@ -35,7 +35,8 @@ class ProjectOverview extends React.Component {
       'sfData': title === 'San Francisco Data Visualization',
       'mikeller': title === 'Mikeller app',
       'coordinates': title === 'Parallel coordinates',
-      'costa': title === 'New Costa cruise experience'
+      'costa': title === 'New Costa cruise experience',
+      'ah': title === 'Augmented Hearing'
 
     });
 

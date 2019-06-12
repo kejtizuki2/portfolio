@@ -23,18 +23,29 @@ class Home extends Component {
           history={this.props.history}
           redirect="sunWise"
           />
-
           </Link>
-          <Project title="SF movies visualization" image={require("../assets/img/SF/main.png")}
-          description="Visualization of movies locations over years in San Francisco"
-          keywords="Data Visualization, Coding"
+
+          <Link to="/augmentedHearing">
+          <Project title="Augmented Hearing" image={require("../assets/img/AH/webmain.png")}
+          className="gridCellCentered"
+          description="Augmented hearing app created as a digital tool to interact with a hearing aid."
+          keywords="UI, UX, Concept, Prototyping"
           history={this.props.history}
-          redirect="SFdataVis"
-        />
-
-
+          redirect="augmentedHearing"
+          />
+          </Link>
         </div>
+
         <div className="gridContainer">
+
+
+          <Project title="SF movies visualization" image={require("../assets/img/SF/main.png")}
+            description="Visualization of movies locations over years in San Francisco"
+            keywords="Data Visualization, Coding"
+            history={this.props.history}
+            redirect="SFdataVis"
+          />
+
 
           <Link to="/dogs">
           <Project title="Dogs training app" image={require("../assets/img/Dogs/dogo.png")}
@@ -45,14 +56,6 @@ class Home extends Component {
           redirect="dogsApp"
           />
           </Link>
-
-
-          <Project title="Mikeller friends" image={require("../assets/img/Mikeller/main.png")}
-          description="Mikeller app"
-          keywords="UX, Prototyping"
-          history={this.props.history}
-          redirect="mikellerApp"
-        />
 
         </div>
 
@@ -72,6 +75,16 @@ class Home extends Component {
           keywords="UI, Ideation, Concept, Prototyping"
           redirect="costa"
         />
+        </div>
+
+        <div className="gridContainer">
+        <Project title="Mikeller friends" image={require("../assets/img/Mikeller/main.png")}
+        description="Mikeller app"
+        keywords="UX, Prototyping"
+        history={this.props.history}
+        redirect="mikellerApp"
+        />
+
         </div>
 
 
