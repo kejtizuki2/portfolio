@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "8c0fa561c595373452233ee63d158075",
-    "url": "/portfolio/static/media/presentX.8c0fa561.png"
+    "revision": "c5c3d44f8ce5812f12902117396da23e",
+    "url": "/portfolio/static/media/screen_about.c5c3d44f.png"
   },
   {
-    "revision": "777724fe9146648495f5",
-    "url": "/portfolio/static/css/main.1ba3c964.chunk.css"
+    "revision": "b7fc46cb47f618e79006",
+    "url": "/portfolio/static/css/main.20feb676.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "c53a950e7c5545f9d46f",
-    "url": "/portfolio/static/js/2.7ca7b723.chunk.js"
+    "revision": "79dbcf2f0bfc3df2d957",
+    "url": "/portfolio/static/js/2.e96147cf.chunk.js"
   },
   {
     "revision": "f515539f64d43cb4b37431b63592c730",
@@ -28,10 +28,6 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/dogo.0432f01c.png"
   },
   {
-    "revision": "0133d5563034d3332df490b0977be771",
-    "url": "/portfolio/static/media/main.0133d556.png"
-  },
-  {
     "revision": "8f026041adea98602579a9df4fd190e8",
     "url": "/portfolio/static/media/main3.8f026041.png"
   },
@@ -40,8 +36,20 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/main.c8123052.png"
   },
   {
+    "revision": "0133d5563034d3332df490b0977be771",
+    "url": "/portfolio/static/media/main.0133d556.png"
+  },
+  {
+    "revision": "2fc0e75f58e9cbe39ff38c3155150247",
+    "url": "/portfolio/static/media/web.2fc0e75f.png"
+  },
+  {
     "revision": "59840adc7383b0a7e80d1a60d5185e54",
     "url": "/portfolio/static/media/cv-katarzyna-zukowska.59840adc.pdf"
+  },
+  {
+    "revision": "d26d44a1a12f9d7750d808cdf93485f5",
+    "url": "/portfolio/static/media/webmain.d26d44a1.png"
   },
   {
     "revision": "819ca87419aca945f66899ba096809de",
@@ -68,12 +76,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/screen_calendar.00997acf.png"
   },
   {
-    "revision": "c5c3d44f8ce5812f12902117396da23e",
-    "url": "/portfolio/static/media/screen_about.c5c3d44f.png"
+    "revision": "b7fc46cb47f618e79006",
+    "url": "/portfolio/static/js/main.0c700660.chunk.js"
   },
   {
-    "revision": "777724fe9146648495f5",
-    "url": "/portfolio/static/js/main.576d96f1.chunk.js"
+    "revision": "8c0fa561c595373452233ee63d158075",
+    "url": "/portfolio/static/media/presentX.8c0fa561.png"
   },
   {
     "revision": "6b79e702653e3a445ec7872d957b7c76",
@@ -144,7 +152,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/img.fffce63d.png"
   },
   {
-    "revision": "a1400dbe9e875c2e9124db99b8b9f0a1",
+    "revision": "19cb602ca0374b3f9b526709278c7663",
     "url": "/portfolio/index.html"
   }
 ];
