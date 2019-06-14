@@ -105,7 +105,7 @@ designed to filter the data in different ways."
         description="Experience costa"
         keywords="UI, Ideation, Concept, Prototyping"
         tools="Adobe Xd"
-        longDesc='The project was created as a response to Reply Creative Challenge in Digital Experience category. The task was
+        longDesc='The project was created as a response to 48h Reply Creative Challenge in Digital Experience category. The task was
         to create a service that can be
 leveraged also from occasional guests coming from the city port. Main assumptions were to augment onboard revenues,
 augment awareness of the brand and the cruise product and get past cruisers involved again. '
