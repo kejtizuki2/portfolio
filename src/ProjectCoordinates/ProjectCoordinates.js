@@ -35,10 +35,34 @@ interesting stories about the data.
         <div className="row">
         <div className="col7"><h2 className="title">Goal</h2><p>The goal of the project was to implement parallel coordinates
           visualization allowing for multiple brushing techniques. Different types of brushing
-          techniques were introduced and tested during the user tests.
+          techniques were introduced and tested during the user tests. Besides that some improvements to original version
+          are proposed in order to reduce visual clutter and increase the readability of the chart. 
         </p></div>
         <div className="col3"></div>
         </div>
+
+
+
+        <h2 className="title">Project Scope</h2>
+        <img src={require("./../assets/img/Coordinates/project-scope.png")} className="mainImg"/>
+
+        <div className="row">
+        <div className="col7"><h2 className="title">Color interpolation</h2><p>In the first iteration, each line had the
+        same gradient color and reduced opacity. However, after uploading larger datasets we noticed that it became much
+        harder to perceive meaningful information within the plot. Right now all lines have different successive colors.
+        </p></div>
+        <div className="col3"></div>
+        </div>
+        <img src={require("./../assets/img/Coordinates/color-interpolation.png")} className="mainImg"/>
+
+        <div className="row">
+        <div className="col7"><h2 className="title">Line interpolation</h2><p>Initially parallel coorinates are implemented
+        with straight lines. We propose curved paths for better readability.
+        </p></div>
+        <div className="col3"></div>
+        </div>
+        <img src={require("./../assets/img/Coordinates/line-interpolation.png")} className="mainImg"/>
+
 
         <div className="row">
         <div className="col7"><h2 className="title">Dimensions</h2><p>The default behavior when uploading
