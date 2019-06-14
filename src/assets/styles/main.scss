@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Karla');
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,800,900&display=swap');
 
 @font-face {
   font-family: Akkurat;
@@ -17,13 +17,13 @@
 }
 
 $font-stack: 'Muli', 'Karla';
-$header-font: 'Akkurat', 'Chivo', 'Arial';
+$header-font: 'Muli';
 $background-color: #FFF4EC;
 $text-color: #292B2C;
 
 .title, strong {
   font-family: $header-font;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 #dogsProject {
