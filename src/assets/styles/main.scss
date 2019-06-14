@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 @font-face {
   font-family: Akkurat;
@@ -15,13 +16,14 @@
   src: require('./../Chivo.ttf');
 }
 
-$font-stack: 'Karla', 'Karla';
-$header-font: 'Akkurat', 'Arial';
+$font-stack: 'Muli', 'Karla';
+$header-font: 'Akkurat', 'Chivo', 'Arial';
 $background-color: #FFF4EC;
 $text-color: #292B2C;
 
 .title, strong {
   font-family: $header-font;
+  font-weight: 700;
 }
 
 #dogsProject {
