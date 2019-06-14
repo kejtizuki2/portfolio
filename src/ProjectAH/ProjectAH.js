@@ -15,6 +15,7 @@ class ProjectAH extends React.Component {
 
 
         <img src={require("./../assets/img/AH/presetsView.png")} className="mainImg"/>
+
         <div className="row">
           <div className="col5"><img src={require("./../assets/img/AH/prototype-preset-card.gif")} className="prototypeImg"/><img src={require("./../assets/img/AH/prototype-choose-filter.gif")} className="prototypeImg"/>
           </div>
@@ -23,6 +24,14 @@ class ProjectAH extends React.Component {
           Home screen shortcut allows user to choose preferred preset without entering the list view. The app
           learns on user's actions and remembers the presets that are used most often. It suggests 4 most often used filters, each form
           different category.
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col5"><h2 className="title">Volume</h2>
+          </div>
+          <div className="col5 padding80Left">
+          <img src={require("./../assets/img/AH/volume.gif")} className="prototypeImg"/>
           </div>
         </div>
 
