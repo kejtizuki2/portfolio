@@ -17,10 +17,10 @@ class ProjectAH extends React.Component {
         <img src={require("./../assets/img/AH/presetsView.png")} className="mainImg"/>
 
         <div className="row margin40">
-          <div className="col5"><img src={require("./../assets/img/AH/prototype-preset-card.gif")} className="prototypeImg"/><img src={require("./../assets/img/AH/prototype-choose-filter.gif")} className="prototypeImg"/>
+          <div className="col5"><img src={require("./../assets/img/AH/prototype-choose-filter.gif")} className="prototypeImg"/><img src={require("./../assets/img/AH/prototype-preset-card.gif")} className="prototypeImg"/>
           </div>
           <div className="col5 padding80Left verticalCenter"><h2 className="title">Presets</h2>
-          Presets can be accessed either from the preset list or from home screen.
+          Presets can be accessed either home screen or from the preset list.
           Home screen shortcut allows user to choose preferred preset without entering the list view. The app
           learns on user's actions and remembers the presets that are used most often. It suggests 4 most often used filters, each form
           different category.
