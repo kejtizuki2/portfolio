@@ -27,7 +27,7 @@ class ProjectAH extends React.Component {
         <div className="col7"><h2 className="title">Concept</h2>  <p>In this project I present a concept of wearable device for
         hearing protection, that provides augmented hearing, by isolating conversations and optimize for loud music environments.
 It connects with an application through a smartphone or smartwatch, where the app is a remote to adjustment and calibration. Besides
-that it displays statistics about user's time spent in loud environments and hearing aid usage. 
+that it displays statistics about user's time spent in loud environments and hearing aid usage.
         </p></div>
         <div className="col3"></div>
         </div>
