@@ -10,9 +10,32 @@ class ProjectAH extends React.Component {
       <div className="projectContainer">
         <img src={require("./../assets/img/AH/webmain.png")} className="mainImg"/>
 
+        <div className="row">
+        <div className="col7"><h2 className="title">Problem</h2>  <p>This project focuses on couple of proplems related to
+        hearling loss problem.
+        <ul>
+        <li>Understanding conversations
+        in environments with loud music or high background noise is sometimes difficult </li>
+        <li>Working in loud environments results in noise-induced hearing loss </li>
+        <li>People are unaware of their hearing ability (potential hearing loss)</li>
+        </ul>
+        </p></div>
+        <div className="col3"></div>
+        </div>
+
+        <div className="row">
+        <div className="col7"><h2 className="title">Concept</h2>  <p>In this project I present a concept of wearable device for
+        hearing protection, that provides augmented hearing, by isolating conversations and optimize for loud music environments.
+It connects with an application through a smartphone or smartwatch, where the app is a remote to adjustment and calibration. Besides
+that it displays statistics about user's time spent in loud environments and hearing aid usage. 
+        </p></div>
+        <div className="col3"></div>
+        </div>
+
+
+
         <h2 className="title">Wireframes / Flow</h2>
         <img src={require("./../assets/img/AH/uxmap.png")} className="mainImg"/>
-
 
         <img src={require("./../assets/img/AH/presetsView.png")} className="mainImg"/>
 
