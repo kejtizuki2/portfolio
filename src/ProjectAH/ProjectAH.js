@@ -62,6 +62,15 @@ that it displays statistics about user's time spent in loud environments and hea
           </div>
         </div>
 
+
+        <div className="margin80"><h2 className="title">Statistics</h2></div>
+        <div className="margin40 row cardsFlowBg">
+          <img src={require("./../assets/img/AH/statistics-animation.gif")} className="prototypeImg gifImgBorder"/>
+
+            <img src={require("./../assets/img/AH/statistics-1.png")} className="prototypeImg gifImgBorder"/>
+
+        </div>
+
       </div>
     )
   }
