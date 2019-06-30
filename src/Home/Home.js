@@ -15,6 +15,16 @@ class Home extends Component {
       <div className="App">
         <Hello />
         <div className="gridContainer">
+          <Link to="/augmentedHearing">
+          <Project title="Augmented Hearing" image={require("../assets/img/AH/web.png")}
+          className="gridCellCentered"
+          description="Augmented hearing app created as a digital tool to interact with a hearing aid."
+          keywords="UI, UX, Concept, Prototyping"
+          history={this.props.history}
+          redirect="augmentedHearing"
+          />
+          </Link>
+
           <Link to="/sunwise">
           <Project title="SunWise" image={require("../assets/img/SunWise/sunwise-main1.png")}
           className="gridCellCentered"
@@ -25,15 +35,6 @@ class Home extends Component {
           />
           </Link>
 
-          <Link to="/augmentedHearing">
-          <Project title="Augmented Hearing" image={require("../assets/img/AH/web.png")}
-          className="gridCellCentered"
-          description="Augmented hearing app created as a digital tool to interact with a hearing aid."
-          keywords="UI, UX, Concept, Prototyping"
-          history={this.props.history}
-          redirect="augmentedHearing"
-          />
-          </Link>
         </div>
 
         <div className="gridContainer">

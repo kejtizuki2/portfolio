@@ -119,7 +119,7 @@ augment awareness of the brand and the cruise product and get past cruisers inv
         description="Augmented hearing app created as a digital tool to interact with a hearing aid."
         keywords="UI, UX, Concept, Prototyping"
         tools="Sketch, Principle"
-        longDesc='This project is currently being created'
+        longDesc='This project is currently being created /////// Protect and augment your hearing via a smartphone- controlled device to distinguish conversation in loud music environments.'
       /><ProjectAH /></div>}
       />
       <Footer />
