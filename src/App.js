@@ -30,7 +30,7 @@ class App extends Component {
 
       <Route exact path="/" component={Home} />
       <Route exact path="/sunWise" component={() => <div><ProjectOverview
-        bgImage={require("./assets/img/SunWise/sunwise-main1.png")}
+        bgImage={require("./assets/img/SunWise/sunwise-main.jpg")}
         title="SunWise"
         history={this.props.history}
         description="Protect your skin from high UV index. Know when to stop sunbathing."

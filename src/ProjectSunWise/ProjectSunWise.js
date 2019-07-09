@@ -8,7 +8,7 @@ class ProjectSunWise extends React.Component {
 
     return(
       <div className="projectContainer">
-        <img src={require("./../assets/img/SunWise/sunwise-main.png")} className="mainImg"/>
+        <img src={require("./../assets/img/SunWise/sunwise-main.jpg")} className="mainImg"/>
 
         <div className="">
           <div className="row">
