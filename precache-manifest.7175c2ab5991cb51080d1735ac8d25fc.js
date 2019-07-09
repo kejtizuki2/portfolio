@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c0a09a5a2d62a24695d03c6ac59f62c7",
-    "url": "/portfolio/static/media/sf-map.c0a09a5a.gif"
+    "revision": "4213ce21c650eebcc8765b799f9838b7",
+    "url": "/portfolio/static/media/main-view.4213ce21.png"
   },
   {
-    "revision": "b4bb9f232093bda87f92",
-    "url": "/portfolio/static/css/main.8f3d1a83.chunk.css"
+    "revision": "6074eff6979001236d5b",
+    "url": "/portfolio/static/css/main.6f5c8c0e.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "541f534adc1211d7dd09",
-    "url": "/portfolio/static/js/2.8c6041b1.chunk.js"
+    "revision": "678298656762fc3e1fb8",
+    "url": "/portfolio/static/js/2.ee59aa62.chunk.js"
   },
   {
     "revision": "648504a9230a4b55dd0181f49a04f1a6",
@@ -42,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "0133d5563034d3332df490b0977be771",
     "url": "/portfolio/static/media/main.0133d556.png"
+  },
+  {
+    "revision": "90580850b8ca96d29a6462a44c595b1b",
+    "url": "/portfolio/static/media/photo.90580850.png"
   },
   {
     "revision": "59840adc7383b0a7e80d1a60d5185e54",
@@ -104,12 +108,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/results-mapped.5335062d.png"
   },
   {
-    "revision": "4213ce21c650eebcc8765b799f9838b7",
-    "url": "/portfolio/static/media/main-view.4213ce21.png"
+    "revision": "6074eff6979001236d5b",
+    "url": "/portfolio/static/js/main.acd146d4.chunk.js"
   },
   {
-    "revision": "b4bb9f232093bda87f92",
-    "url": "/portfolio/static/js/main.10659f6a.chunk.js"
+    "revision": "c0a09a5a2d62a24695d03c6ac59f62c7",
+    "url": "/portfolio/static/media/sf-map.c0a09a5a.gif"
   },
   {
     "revision": "91f5e6d72dc607a7671e2e4edc2363a9",
@@ -212,7 +216,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/img.fffce63d.png"
   },
   {
-    "revision": "bb7617feb879b9dcf795fb8cc32cedc3",
+    "revision": "f7e621b724aa56f83e3b75264f1d376e",
     "url": "/portfolio/index.html"
   }
 ];
