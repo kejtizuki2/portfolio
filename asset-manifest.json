@@ -1,5 +1,5 @@
 {
-  "main.css": "/portfolio/static/css/main.871c13c0.chunk.css",
+  "main.css": "/portfolio/static/css/main.34a85cd0.chunk.css",
   "main.js": "/portfolio/static/js/main.17eddfb7.chunk.js",
   "main.js.map": "/portfolio/static/js/main.17eddfb7.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
@@ -7,9 +7,9 @@
   "static/js/2.e44d25b8.chunk.js": "/portfolio/static/js/2.e44d25b8.chunk.js",
   "static/js/2.e44d25b8.chunk.js.map": "/portfolio/static/js/2.e44d25b8.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.2e5cfc4f42b3c5758a28fbada3deec59.js": "/portfolio/precache-manifest.2e5cfc4f42b3c5758a28fbada3deec59.js",
+  "precache-manifest.7ca973544c226a12f4a0d941b20cc1c0.js": "/portfolio/precache-manifest.7ca973544c226a12f4a0d941b20cc1c0.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.871c13c0.chunk.css.map": "/portfolio/static/css/main.871c13c0.chunk.css.map",
+  "static/css/main.34a85cd0.chunk.css.map": "/portfolio/static/css/main.34a85cd0.chunk.css.map",
   "static/media/1.png": "/portfolio/static/media/1.a6648266.png",
   "static/media/USM.png": "/portfolio/static/media/USM.2b9f0b44.png",
   "static/media/color-interpolation.png": "/portfolio/static/media/color-interpolation.8a523178.png",
