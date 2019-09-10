@@ -1,7 +1,7 @@
 @import "../assets/styles/main.scss";
 
 .hello {
-  height: 600px;
+  height: 750px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -21,4 +21,13 @@
       }
     }
   }
+
+  .workLink {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.myTooltip {
+  // background-color: #EAF257 !important;
 }
