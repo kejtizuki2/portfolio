@@ -55,6 +55,11 @@
   color: white;
 }
 
+.opi {
+  background-color: #905fce;
+  color: white;
+}
+
 .ah {
   background-color: #ecede7;
 }
@@ -90,8 +95,14 @@
   margin: 40px 0px 40px 0px;
 }
 
+.smallImg {
+  width: 450px;
+  height: auto;
+}
+
 .projectContainer {
   padding: 10px 200px 10px 200px;
+  // @media screen and (max-width: 1200px) {
   .screenView {
     width: 300px;
   }
