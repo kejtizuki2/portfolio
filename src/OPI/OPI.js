@@ -50,6 +50,21 @@ class OPI extends React.Component {
         </div>
 
           <div className="center"><img src={require("./../assets/img/OPI/designSystem.png")} className="mainImg"/></div>
+
+          <div className="row">
+          <div className="col7"><h2 className="title">Activities</h2>
+          <p></p>
+          </div>
+          </div>
+          <img className="mainImg" src={require('./../assets/img/OPI/activities.png')} />
+
+          <div className="row">
+          <div className="col7"><h2 className="title">Bubbles</h2>
+          <p></p>
+          </div>
+          </div>
+          <img className="mainImg" src={require('./../assets/img/OPI/bubbles.png')} />
+
       </div>
     )
   }
