@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "8b14f7e6bea3a06b3ad51bd2f91989df",
-    "url": "/portfolio/static/media/microinteractions.8b14f7e6.png"
+    "revision": "2b9f0b447a7f0f885b7683b750bab0f6",
+    "url": "/portfolio/static/media/USM.2b9f0b44.png"
   },
   {
-    "revision": "c058beaeaf8b2bd7bf7f",
-    "url": "/portfolio/static/css/main.1e139815.chunk.css"
+    "revision": "7a234c9b708940bfd06f",
+    "url": "/portfolio/static/css/main.72f1bf4b.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "ae72018c475e06504f9e",
-    "url": "/portfolio/static/js/2.b5f3fe41.chunk.js"
+    "revision": "947ac084d303ba8c9b85",
+    "url": "/portfolio/static/js/2.cad411f6.chunk.js"
   },
   {
     "revision": "546f67de07c8dddf3baabbfcfec66c2b",
@@ -68,6 +68,14 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/designSystem.000d79f7.png"
   },
   {
+    "revision": "cd76822e6ad84d493f2514c4ceae814a",
+    "url": "/portfolio/static/media/activities.cd76822e.png"
+  },
+  {
+    "revision": "f646d45c00b8162cf123062dc33b53c0",
+    "url": "/portfolio/static/media/bubbles.f646d45c.png"
+  },
+  {
     "revision": "d416da0d711f22ae4b686c168f8670e1",
     "url": "/portfolio/static/media/sunwise-main1.d416da0d.jpg"
   },
@@ -112,12 +120,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/1.a6648266.png"
   },
   {
-    "revision": "2b9f0b447a7f0f885b7683b750bab0f6",
-    "url": "/portfolio/static/media/USM.2b9f0b44.png"
+    "revision": "7a234c9b708940bfd06f",
+    "url": "/portfolio/static/js/main.ea24f0d6.chunk.js"
   },
   {
-    "revision": "c058beaeaf8b2bd7bf7f",
-    "url": "/portfolio/static/js/main.72cbb479.chunk.js"
+    "revision": "8b14f7e6bea3a06b3ad51bd2f91989df",
+    "url": "/portfolio/static/media/microinteractions.8b14f7e6.png"
   },
   {
     "revision": "5335062db94ccff5a56108ff032bdc8b",
@@ -232,7 +240,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/img.fffce63d.png"
   },
   {
-    "revision": "1b427dc65bba8bcce1f3da7c6d40679a",
+    "revision": "f697b88ed702d9d54f426c88a1b0f129",
     "url": "/portfolio/index.html"
   }
 ];
