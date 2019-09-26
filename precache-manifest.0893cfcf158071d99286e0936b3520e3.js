@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/microinteractions.8b14f7e6.png"
   },
   {
-    "revision": "c020d2fa908bd38b5ebd",
-    "url": "/portfolio/static/css/main.33826a54.chunk.css"
+    "revision": "c058beaeaf8b2bd7bf7f",
+    "url": "/portfolio/static/css/main.1e139815.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/me-2.047b2d63.jpg"
   },
   {
-    "revision": "59840adc7383b0a7e80d1a60d5185e54",
-    "url": "/portfolio/static/media/cv-katarzyna-zukowska.59840adc.pdf"
+    "revision": "54560dae64964182a7ee5daa85473ee2",
+    "url": "/portfolio/static/media/cv-katarzyna-zukowska.54560dae.pdf"
   },
   {
     "revision": "08fc10eefd755d2e99aca2fcd3f7470d",
@@ -116,8 +116,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/USM.2b9f0b44.png"
   },
   {
-    "revision": "c020d2fa908bd38b5ebd",
-    "url": "/portfolio/static/js/main.6b178e37.chunk.js"
+    "revision": "c058beaeaf8b2bd7bf7f",
+    "url": "/portfolio/static/js/main.72cbb479.chunk.js"
   },
   {
     "revision": "5335062db94ccff5a56108ff032bdc8b",
@@ -232,7 +232,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/img.fffce63d.png"
   },
   {
-    "revision": "753b4c4872287a51ac32c1761e675bfa",
+    "revision": "1b427dc65bba8bcce1f3da7c6d40679a",
     "url": "/portfolio/index.html"
   }
 ];
