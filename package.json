@@ -6,7 +6,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "d3-geo": "^1.11.6",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react": "^16.8.4",
     "react-d3": "^0.4.0",
     "react-dom": "^16.8.4",
